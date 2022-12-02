@@ -1,5 +1,5 @@
 {
-	"name": "prom-client",
+	"name": "@effyis/prom-client",
 	"version": "14.1.0",
 	"description": "Client for prometheus",
 	"main": "index.js",
@@ -22,7 +22,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:siimon/prom-client.git"
+		"url": "git@github.com:Effyis/prom-client.git"
+	},
+	"publishConfig": {
+		"registry": "http://verdaccio.sgdctroy.net:4873"
 	},
 	"keywords": [
 		"Prometheus",
@@ -31,7 +34,7 @@
 	],
 	"author": "Simon Nyberg",
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/siimon/prom-client",
+	"homepage": "https://github.com/Effyis/prom-client",
 	"devDependencies": {
 		"@clevernature/benchmark-regression": "^1.0.0",
 		"eslint": "^7.7.0",
