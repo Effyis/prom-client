@@ -177,6 +177,13 @@ export class Counter<T extends string = string> {
 	inc(labels: LabelValues<T>, value?: number): void;
 
 	/**
+	 * Set value for given labels
+	 * @param labels Object with label keys and values
+	 * @param value The number to set value to
+	 */
+	set(labels: LabelValues<T>, value?: number): void;
+
+	/**
 	 * Increment with value
 	 * @param value The value to increment with
 	 */
